@@ -1,0 +1,38 @@
+{
+  "name": "task-mern",
+  "version": "1.0.0",
+  "description": "Application for study MERN",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --mode development --watch",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenrivas989/task-mern.git"
+  },
+  "author": "Steven Rivas Jaimes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenrivas989/task-mern/issues"
+  },
+  "homepage": "https://github.com/stevenrivas989/task-mern#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "nodemon": "^1.18.10",
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
